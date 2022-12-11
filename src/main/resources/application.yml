@@ -1,0 +1,16 @@
+server:
+  port: 8099
+
+spring:
+  datasource:
+    sqlserver:
+      url: jdbc:sqlserver://192.168.1.68:1433;databaseName=RiskControlPlatform;
+      username: sa
+      password: xtsoft@puduo12366
+    mysql:
+      url: jdbc:mysql://192.168.1.130:3306/zt_algorithm_process_backup?serverTimezone=UTC
+      username: puduo
+      password: Puduo_2021!@!
+logging:
+  level:
+    cn.cc.demo.mapper: DEBUG
